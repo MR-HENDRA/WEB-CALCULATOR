@@ -38,13 +38,13 @@ function handleOperator(operator) {
     calculator.firstNumber = calculator.displayNumber;
     calculator.displayNumber = '0';
   } else {
-    alert('Operator sudah ditetapkan');
+    alert('Operator sudah ditetapkan, sudahmi tadi dipencet :)');
   }
 }
 
 function performCalculation() {
   if (calculator.firstNumber == null || calculator.operator == null) {
-    alert('Anda belum menetapkan operator');
+    alert("Tabe'Anda belum menetapkan operator");
     return;
   }
 
